@@ -15,7 +15,7 @@ namespace BlankPclFormsApp.iOS
         {
             base.ViewDidLoad();
 
-            //SWITCHBUTTON the following two lines to change between a standard control and a custom one that inherits from NSObject
+            //SWITCHBUTTON - switch the following two lines to change between a standard control and a custom one that inherits from NSObject
             var button = new UIButton();
             //var button = new CustomButton();
 
