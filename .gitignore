@@ -1,0 +1,9 @@
+*.userprefs
+*.suo
+.DS_Store
+Thumbs.db
+
+bin/
+obj/
+**/packages/*
+!**/packages/repositories.config
