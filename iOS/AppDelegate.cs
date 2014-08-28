@@ -21,8 +21,8 @@ namespace BlankPclFormsApp.iOS
             window = new UIWindow(UIScreen.MainScreen.Bounds);
 			
             //SWITCH the following two lines to change between Xamarin forms and native iOS UIViewControllers
-            window.RootViewController = App.GetMainPage().CreateViewController();
-            //window.RootViewController = new UINavigationController(new MainViewController());
+            //window.RootViewController = App.GetMainPage().CreateViewController();
+            window.RootViewController = new UINavigationController(new MainViewController());
 
             window.MakeKeyAndVisible();
 			
